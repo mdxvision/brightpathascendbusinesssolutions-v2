@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Brightpath Ascend Business Solutions</title>
+  <meta name="description" content="Start building your business foundation. We respond within 24 hours.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body class="grain">
+
+  <!-- Navigation -->
+  <header class="nav-header" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/images/BAG-A.png" alt="Brightpath Ascend Business Solutions">
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <a href="contact.html" class="btn btn-ghost btn-sm nav-cta">Begin</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-mobile" id="navMobile">
+    <a href="index.html" class="nav-mobile-link">Home</a>
+    <a href="about.html" class="nav-mobile-link">About</a>
+    <a href="services.html" class="nav-mobile-link">Services</a>
+    <a href="faq.html" class="nav-mobile-link">FAQ</a>
+    <a href="contact.html" class="nav-mobile-link">Contact</a>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero" style="padding-top: var(--space-48);">
+      <div class="container">
+        <p class="text-micro reveal" style="margin-bottom: var(--space-4);">Contact</p>
+        <h1 class="page-hero-title reveal">Start building.</h1>
+        <p class="page-hero-subtitle reveal">We respond within 24 hours.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Form -->
+          <div class="contact-form-wrapper reveal">
+            <h2 class="contact-form-title">Request Consultation</h2>
+            <p class="contact-form-subtitle">Tell us about your business goals.</p>
+
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input type="text" id="firstName" name="firstName" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" id="lastName" name="lastName" class="form-input" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="businessStatus" class="form-label">Business Status</label>
+                <select id="businessStatus" name="businessStatus" class="form-input">
+                  <option value="">Select</option>
+                  <option value="planning">Planning to start</option>
+                  <option value="new">New business (under 1 year)</option>
+                  <option value="established">Established (1+ years)</option>
+                  <option value="restructure">Need to restructure</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="goals" class="form-label">What are your goals?</label>
+                <textarea id="goals" name="goals" class="form-textarea" placeholder="Tell us about your business and what you're looking to achieve..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-accent btn-lg" style="width: 100%;">
+                Submit Request <span class="arrow">&rarr;</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- Info -->
+          <div class="contact-info reveal">
+            <h3 class="contact-info-title">Direct Contact</h3>
+
+            <div class="contact-method">
+              <p class="contact-method-label">Phone</p>
+              <p class="contact-method-value"><a href="tel:9179094051">(917) 909-4051</a></p>
+              <p class="contact-method-note">Mon-Fri, 9AM-6PM EST</p>
+            </div>
+
+            <div class="contact-method">
+              <p class="contact-method-label">Email</p>
+              <p class="contact-method-value"><a href="mailto:business@brightpathascendgroup.com">business@brightpathascendgroup.com</a></p>
+              <p class="contact-method-note">24-hour response</p>
+            </div>
+
+            <!-- What Happens Next -->
+            <div style="margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--color-border);">
+              <h4 style="font-size: var(--text-sm); font-weight: var(--weight-medium); text-transform: uppercase; letter-spacing: var(--tracking-widest); color: var(--color-text-muted); margin-bottom: var(--space-6);">What happens next</h4>
+
+              <div style="display: flex; gap: var(--space-4); margin-bottom: var(--space-6);">
+                <div style="width: 32px; height: 32px; border: 1px solid var(--color-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: var(--text-sm); color: var(--color-accent); flex-shrink: 0;">1</div>
+                <div>
+                  <h4 style="font-size: var(--text-base); font-weight: var(--weight-medium); margin-bottom: var(--space-1);">We review</h4>
+                  <p style="font-size: var(--text-sm); color: var(--color-text-muted);">Your submission is evaluated within 24 hours.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: var(--space-4); margin-bottom: var(--space-6);">
+                <div style="width: 32px; height: 32px; border: 1px solid var(--color-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: var(--text-sm); color: var(--color-accent); flex-shrink: 0;">2</div>
+                <div>
+                  <h4 style="font-size: var(--text-base); font-weight: var(--weight-medium); margin-bottom: var(--space-1);">We call</h4>
+                  <p style="font-size: var(--text-sm); color: var(--color-text-muted);">Brief consultation to discuss your business goals.</p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: var(--space-4);">
+                <div style="width: 32px; height: 32px; border: 1px solid var(--color-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: var(--text-sm); color: var(--color-accent); flex-shrink: 0;">3</div>
+                <div>
+                  <h4 style="font-size: var(--text-base); font-weight: var(--weight-medium); margin-bottom: var(--space-1);">We build</h4>
+                  <p style="font-size: var(--text-sm); color: var(--color-text-muted);">If you proceed, we start building immediately.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/BAG-Deloiite.png" alt="Brightpath Ascend Business Solutions" class="footer-logo">
+          <p class="footer-tagline">Structure. Credit. Capital.</p>
+          <p class="footer-desc">A Brightpath Ascend Group Company</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:9179094051">(917) 909-4051</a></li>
+            <li><a href="mailto:business@brightpathascendgroup.com">business@brightpathascendgroup.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-legal">&copy; 2025 Brightpath Ascend Business Solutions. Entity formation and business credit consulting services. Credit approval determined by lenders. Results vary. No guarantees.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
